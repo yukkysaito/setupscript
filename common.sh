@@ -7,7 +7,7 @@ if [ -e ~/.emacs.d ]; then
 fi
 cp -r ./dotfiles/emacs.d ~/.emacs.d
 
-if [ -e ~/.emacs.d ]; then
+if [ -e ~/.tmux.conf ]; then
     echo "-------- Create .emacs.d backup --------"
     cp -r ~/.tmux.conf ~/.tmux.conf.backup
     rm -rf ~/.tmux.conf
